@@ -1,0 +1,44 @@
+.middle-container {
+    position: relative; /* Important pour positionner le texte sur l'image */
+    width: 100%; /* Prend toute la largeur de la page */
+    height: 95vh; /* Prend 90% de la hauteur de la fenêtre de visualisation */
+    overflow: hidden; /* Empêche le débordement de contenu */
+}
+
+.center-image {
+    width: 100%; /* Assure que l'image prend toute la largeur du conteneur */
+    height: auto; /* Garde les proportions de l'image intactes */
+    max-height: 100%; /* Empêche l'image de dépasser la hauteur du conteneur */
+}
+
+
+.image-message {
+    position: absolute; /* Permet de positionner le texte n'importe où sur l'image */
+    top: 25%; /* Place le texte un peu en haut */
+    left: 5%; /* Place le texte à gauche */
+    color: white; /* Couleur du texte pour une bonne visibilité */
+    font-size: 1.5em; /* Taille du texte */
+    text-align: left; /* Alignement du texte à gauche */
+    max-width: 50%; /* Limite la largeur du texte pour éviter d'envahir toute l'image */
+}
+
+.start-button {
+    display: block; /* Affiche le bouton sur une nouvelle ligne */
+    padding: 10px 20px; /* Taille du padding pour le confort du clic */
+    font-size: 1.2em; /* Taille de la police du bouton */
+    font-weight: bold; /* Rend le texte du bouton en gras */
+    color: white; /* Couleur du texte */
+    background-color: transparent; /* Couleur de fond du bouton */
+    border: none; /* Supprime la bordure du bouton */
+    cursor: pointer; /* Indique que le bouton est cliquable */
+    margin-top: 20px; /* Espace au-dessus du bouton */
+    margin-left: 100px; /* Espace à gauche pour le décaler à droite */
+    border-radius: 5px; /* Coins arrondis pour l'esthétique */
+    transition: background-color 0.3s; /* Transition pour effet au survol */
+}
+
+.start-button:hover {
+    background-color: #16a085; /* Change la couleur de fond au survol */
+}
+
+

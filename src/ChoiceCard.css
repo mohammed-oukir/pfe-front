@@ -1,0 +1,26 @@
+.choice-card {
+    border: 2px solid transparent;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    background: white;
+    margin: 10px 0;
+    transition: border-color 0.3s;
+  }
+  
+  .choice-card.selected {
+    border-color: green;
+  }
+  
+  .icon-placeholder {
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: #ccc; /* Placeholder for an icon */
+  }
+  
+  .title {
+    font-size: 16px;
+  }
+  

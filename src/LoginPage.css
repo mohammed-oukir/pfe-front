@@ -1,0 +1,148 @@
+/* Container for the entire form */
+.bbb{
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.form-container {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px 30px;
+  width: 350px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Title styling */
+.title {
+  margin: 10px 0 30px;
+  font-size: 28px;
+  font-weight: 800;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* Form layout */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Input fields styling */
+.input {
+  padding: 12px 15px;
+  border-radius: 20px;
+  border: 1px solid #c0c0c0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+/* Link for forgotten password */
+.page-link {
+  margin: 0;
+  text-align: end;
+  color: #747474;
+  text-decoration: underline;
+  text-decoration-color: #747474;
+}
+
+/* Styling for the page link label */
+.page-link-label {
+  font-size: 9px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.page-link-label:hover {
+  color: #000;
+}
+
+/* Login button styling */
+.form-btn {
+  padding: 10px 15px;
+  border-radius: 20px;
+  background: teal;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
+}
+
+.form-btn:active {
+  box-shadow: none;
+}
+
+/* Sign-up link styling */
+.sign-up-label {
+  margin: 0;
+  font-size: 10px;
+  color: #747474;
+}
+
+.sign-up-link {
+  margin-left: 1px;
+  font-size: 11px;
+  color: teal;
+  text-decoration: underline;
+  text-decoration-color: teal;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+/* Container for login buttons */
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 15px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* Common styling for third-party login buttons */
+.apple-login-button,
+.google-login-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  gap: 5px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.16), 0px 0px 0px 1px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.apple-login-button {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+}
+
+.google-login-button {
+  background-color: white;
+  color: black;
+  border: 1px solid #c0c0c0;
+}
+
+/* Icon styling within buttons */
+.apple-icon,
+.google-icon {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+}
+

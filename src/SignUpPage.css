@@ -1,0 +1,45 @@
+.sign-up-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    width: 100vw;  
+    padding: 20px;
+  }
+  
+  .sign-up-page header {
+    margin-bottom: 20px;
+  }
+  
+  .sign-up-page main {
+    display: flex;
+    width: 50%; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 50px; 
+  }
+  
+  .choice-card {
+    width: 35%; 
+    height: 200px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 25px;
+  }
+  
+  .choice-card .icon-placeholder {
+    width: 100px;
+    height: 50px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .choice-card .title {
+    font-size: 18px;
+  }
+  

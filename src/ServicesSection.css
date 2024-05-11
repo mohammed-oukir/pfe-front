@@ -1,0 +1,104 @@
+.services-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* Espacement entre les sections */
+}
+
+.services-section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.services-section.reverse .text-content {
+    order: 2;
+}
+
+.services-section.reverse .image-content {
+    order: 1;
+}
+
+.text-content, .image-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.image-content img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out; /* Transition pour l'effet de zoom */
+}
+.image-content img:hover {
+    transform: scale(1.05); /* Effet de zoom léger sur les images */
+}
+
+.call-to-action {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.call-to-action:hover {
+    background-color: #0056b3;
+}
+/* Styles existants... */
+
+/* Styles existants... */
+
+.service-highlights {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #ffffff; /* Fond blanc pour un look plus clair et propre */
+    margin-top: 20px;
+    border-radius: 8px; /* Coins arrondis pour un style doux */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Ombre pour un effet de profondeur */
+}
+
+.highlights-text {
+    flex: 2; /* Donne plus d'espace au texte */
+    padding-right: 40px; /* Espacement pour la lisibilité */
+    font-size: 18px; /* Augmente la taille de la police pour une meilleure lecture */
+    line-height: 1.6; /* Espacement des lignes pour améliorer la lecture */
+    color: #333; /* Couleur de texte plus foncée pour un contraste optimal */
+}
+
+.highlights-text p {
+    margin-bottom: 20px; /* Espacement entre les paragraphes */
+    text-align: justify; /* Justification du texte pour une présentation uniforme */
+}
+
+.highlights-text strong {
+    display: block; /* Les titres des points forts sur leur propre ligne */
+    color: #007BFF; /* Couleur bleue pour les titres pour attirer l'attention */
+    font-size: 20px; /* Taille plus grande pour les titres */
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .service-highlights {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .highlights-text {
+        padding: 20px;
+        padding-right: 0; /* Ajustement pour mobile */
+    }
+
+}
+
+
+

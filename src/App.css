@@ -1,0 +1,15 @@
+/* Réinitialise les marges et le padding par défaut pour tout le document */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Assure que le html et body prennent toute la largeur */
+    height: 100%; /* Assure que le html et body prennent toute la hauteur */
+    overflow-x: hidden; /* Empêche le défilement horizontal */
+     background-color: transparent;
+}
+
+/* Assure que la div racine de React prend également toute la hauteur et largeur */
+#root {
+    width: 100%;
+    height: 100%;
+}

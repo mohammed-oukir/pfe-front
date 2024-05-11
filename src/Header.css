@@ -1,0 +1,82 @@
+/* Styles généraux pour la barre de navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #2c3e50; /* Fond blanc */
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    padding: 10px 15px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+
+.nav-link:hover {
+    color: #555;
+}
+
+.nav-link-special {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link-special:hover {
+    color: #777;
+}
+
+/* Styles pour le conteneur de recherche */
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 2px solid #DDDDDD; /* Bordure grise subtile */
+    border-radius: 20px; /* Bordures arrondies */
+}
+
+.search-input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+}
+
+.search-select {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    appearance: none; /* Supprime le style par défaut des navigateurs pour les sélect */
+    background: url('dropdown-icon.png') no-repeat right 10px center; /* Icône de flèche déroulante */
+}
+
+/* Enlevez les styles par défaut du focus */
+.search-input:focus, .search-select:focus {
+    border: none;
+    outline: none;
+}
+
+/* Styles pour le placeholder du search input */
+.search-input::placeholder {
+    color: white;
+}

@@ -1,0 +1,47 @@
+.faq-section {
+    background-color: #ffffff; /* Couleur de fond claire pour un look propre */
+    padding: 30px;
+    border-radius: 12px; /* Coins arrondis pour un look moderne */
+    margin: 20px auto; /* Centrage et espace autour de la section */
+    max-width: 800px; /* Largeur maximale pour une meilleure lisibilité */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Ombre subtile pour un effet de profondeur */
+    font-family: 'Arial', sans-serif; /* Police de caractères plus moderne */
+}
+
+.faq-item {
+    margin-top: 15px;
+}
+
+.faq-question {
+    background-color: #007BFF; /* Bleu vif pour l'accroche */
+    color: white;
+    padding: 15px 20px; /* Padding plus généreux pour un meilleur toucher */
+    border: none;
+    border-radius: 8px; /* Coins plus arrondis */
+    width: 100%;
+    text-align: left;
+    font-size: 20px; /* Taille de police plus grande pour une meilleure visibilité */
+    font-weight: bold; /* Texte en gras */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.faq-question:hover {
+    background-color: #0056b3; /* Bleu plus sombre au survol */
+    transform: translateY(-2px); /* Petit déplacement vers le haut pour un effet dynamique */
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, padding 0.5s ease;
+    background-color: #f9f9f9; /* Fond légèrement différent pour la réponse */
+    margin-top: 5px;
+    border-radius: 8px; /* Coins arrondis pour les réponses */
+}
+
+.faq-answer.active {
+    max-height: 1000px; /* Ajustez cette valeur selon les besoins de votre contenu */
+    padding: 20px; /* Padding plus généreux pour un meilleur look */
+    font-size: 18px; /* Taille de police légèrement plus grande pour les réponses */
+}
