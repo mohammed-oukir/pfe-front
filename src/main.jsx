@@ -15,6 +15,7 @@ import { createTheme, ThemeProvider } from '@mui/material';
 
 // import HomePage from './components/page/HomePage.jsx';
 import LoginPage from './components/page/LoginPage.jsx';
+import RegistrationChoicePage from './components/page/RegistrationChoicePage.jsx';
 
 const theme = createTheme({
   //  direction: 'rtl',
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <LoginPage />
+  },
+  {
+    path: "/registry-choice",
+    element: <RegistrationChoicePage />
   }
 ]);
 

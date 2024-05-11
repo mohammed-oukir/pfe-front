@@ -63,7 +63,7 @@ const Header = (props) => {
             </Box>
 
             <Button onClick={() => navigate("/login")}  color="inherit" sx={{ mr: 2 }}>Login</Button>
-            <Button color="inherit">Sign Up</Button>
+            <Button onClick={() => navigate("registry-choice")} color="inherit">Sign Up</Button>
           </Box>
         </Toolbar>
       </AppBar>
